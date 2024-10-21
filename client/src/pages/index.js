@@ -1,5 +1,5 @@
 import CreatePost from './CreatePost'
-import Home from './Home'
+import Home from './Home.JSX'
 
 
 export {

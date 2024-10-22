@@ -29,10 +29,8 @@ const CreatePost = () => {
   }
 
 //TODO - FIX HANDLECHANGE ERROR ON FORMFILD  NOT UPDATING, IT IS RECEIVING THE DATA BUT NOT VISUALLY UPDATING
-  const handleChange = (e) => {
-    console.log(`Field: ${e.target.name}, Value: ${e.target.value}`);
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
+const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
+
   
   const handleSupriseMe = () => {
     const randomPrompt = getRandomPrompt(form.prompt)

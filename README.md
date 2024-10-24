@@ -1,2 +1,1 @@
 # Magimage
-proibido commit vazio

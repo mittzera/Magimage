@@ -28,7 +28,7 @@ const CreatePost = () => {
 
   }
 
-//TODO - FIX HANDLECHANGE ERROR ON FORMFILD  NOT UPDATING, IT IS RECEIVING THE DATA BUT NOT VISUALLY UPDATING
+
 const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
   
